@@ -1,8 +1,8 @@
 {
-  "name": "y-webrtc",
-  "version": "0.6.1",
-  "description": "WebRTC Connector for Yjs",
-  "main": "./build/node/y-webrtc.js",
+  "name": "y-simplepeer",
+  "version": "0.7.0",
+  "description": "SimplePeer Connector for Yjs",
+  "main": "./build/node/y-simplepeer.js",
   "scripts": {
     "test": "node --harmony ./node_modules/.bin/gulp test",
     "lint": "./node_modules/.bin/standard",
@@ -21,16 +21,16 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/rwth-acis/y-webrtc.git"
+    "url": "https://github.com/istvank/y-simplepeer.git"
   },
   "keywords": [
     "Yjs",
     "Connector"
   ],
-  "author": "Kevin Jahns <kevin.jahns@rwth-aachen.de>",
+  "author": "István Koren <koren ÄT dbis.rwth-aachen.de",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/y-js/y-webrtc/issues"
+    "url": "https://github.com/istvank/y-simplepeer/issues"
   },
   "homepage": "http://y-js.org",
   "dependencies": {},
@@ -63,8 +63,9 @@
     "pre-commit": "^1.1.1",
     "promise-polyfill": "^2.1.0",
     "run-sequence": "^1.1.4",
-    "simplewebrtc": "^1.19.1",
+    "simple-peer": "^5.11.6",
     "standard": "^5.2.2",
+    "uuid": "^2.0.1",
     "vinyl-buffer": "^1.0.0",
     "vinyl-source-stream": "^1.1.0"
   }
