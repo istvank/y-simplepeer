@@ -1,5 +1,8 @@
-# WebRTC Connector for [Yjs](https://github.com/y-js/yjs)
+# SimplePeer Connector for [Yjs](https://github.com/y-js/yjs)
 
+```
+This documentation has not been updated since the repository was forked from y-webrtc. If you read this and have some time, before complaining, please correct the issues and create a pull request.
+```
 
 It propagates document updates directly to all users via WebRTC. While WebRTC is not the most reliable connector, messages are propagated with almost no delay.
 

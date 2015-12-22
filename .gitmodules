@@ -1,4 +1,4 @@
 [submodule "dist"]
 	path = dist
-	url = https://github.com/y-js/y-webrtc.git
+	url = https://github.com/istvank/y-simplepeer.git
 	branch = dist

@@ -6,9 +6,9 @@ var runSequence = require('run-sequence').use(gulp)
 
 require('../yjs/gulpfile.helper.js')(gulp, {
   polyfills: [],
-  entry: './src/WebRTC.js',
-  targetName: 'y-webrtc.js',
-  moduleName: 'y-webrtc',
+  entry: './src/SimplePeerConnector.js',
+  targetName: 'y-simplepeer.js',
+  moduleName: 'y-simplepeer',
   specs: []
 })
 
